@@ -19,6 +19,9 @@
                 <h1><%= title %></h1>
                 <p>Welcome to <%= title %></p>
             </div>
+
+            <div class = "_footer">
+            </div>
         </div>
     </body>
 
@@ -27,5 +30,10 @@
         $.get( "ejs/navbar.ejs", function( data ) {
             $("._navbar").replaceWith(data);
         });
+
+        $.get( "ejs/footer.ejs", function( data ) {
+            $("._footer").replaceWith(data);
+        });
+
     </script>
 </html>
