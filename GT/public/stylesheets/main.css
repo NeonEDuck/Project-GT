@@ -167,6 +167,12 @@ div.form select{
 
 #gallery{
     border: 2px solid #444;
-    width: 300px;
-    height: 420px;
+    width: 400px;
+    height: 520px;
+}
+
+div.left:after {
+    clear: both;
+    display: table;
+    content: '';
 }
